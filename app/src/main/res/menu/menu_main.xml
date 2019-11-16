@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity"
+    >
+    <item android:id="@+id/action_buscar"
+        android:orderInCategory="90"
+        android:icon="@drawable/ic_search"
+        android:title="Search"
+        app:showAsAction="ifRoom" />
+    <item android:id="@+id/action_inf"
+        android:icon="@drawable/ic_information"
+        android:orderInCategory="100"
+        android:title="Information"
+        app:showAsAction="ifRoom" />
+</menu>
